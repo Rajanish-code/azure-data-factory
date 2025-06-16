@@ -1,0 +1,29 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AdlsGen2LS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"countryName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().countryName",
+					"type": "Expression"
+				},
+				"folderPath": "p1",
+				"fileSystem": "country"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

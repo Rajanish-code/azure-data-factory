@@ -1,0 +1,9 @@
+{
+	"name": "CountryDataFactroy",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7a5ad234-f900-496b-b68c-6929ce697941",
+		"tenantId": "691eadc9-d239-4558-a04b-8ce02ad8c05a"
+	}
+}
