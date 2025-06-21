@@ -1,0 +1,16 @@
+{
+	"name": "tableList",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "week_5_AzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TableList"
+		}
+	}
+}
