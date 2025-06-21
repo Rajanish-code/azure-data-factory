@@ -1,0 +1,12 @@
+{
+	"name": "week_5_AzureBlobStorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=adlsgentl2;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDgwQzhEQkIzLUFEQjAtNERFOC1BOTkzLTVEQzM1RURDQzU2RV82ZjU1MTA3Ni0xYWY0LTRkMmYtODE1MS0yMTIyYjVlYzhlMjIiDQp9"
+		}
+	}
+}
