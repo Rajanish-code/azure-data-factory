@@ -1,0 +1,21 @@
+{
+	"name": "week_5_allsqltableselect",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "week_5_azureSql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "TableName",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TableList"
+		}
+	}
+}
